@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+</head>
+<body style="background-color: lightyellow">
+<h2 style="color: blue;background-color: lightseagreen">ĐĂNG KÝ HỌC VIÊN</h2>
+<form style="color: blue">
+    <table cellspacing="5" cellpadding="5">
+        <tr>
+            <td>Họ và tên</td>
+            <td> <input type="text" name="name"></td>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date" name="bd"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <input type="radio" name="gender">Nam
+                <input type="radio" name="gender">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select>
+                    <option selected>-Chọn lớp-</option>
+                    <option>Front-end</option>
+                    <option>Back-end</option>
+                    <option>Full-stacks</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="number" name="phone"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="Submit">
+                <input type="reset" name="reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
